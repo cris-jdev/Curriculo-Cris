@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cristiano Junior - Suporte Técnico & Atendimento</title>
+  <meta name="description" content="Suporte Técnico N1, Help Desk, Atendimento Remoto e Orientação Técnica. Localizado em Brasília.">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- Estilos para as animações em JavaScript -->
+  <style>
+    /* Estado inicial dos elementos para a animação de scroll */
+    .js-scroll {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    /* Estado ativo após o JavaScript detectar o scroll */
+    .js-scroll.ativo {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Animação suave nos cards de experiência ao passar o mouse */
+    .empresa {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .empresa:hover {
+      transform: translateY(-4px);
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <!-- Logo SVG Profissional CJ. -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 38" width="110" height="38">
+      <path d="M 4 9 L 13 19 L 4 29" fill="none" stroke="#a3e635" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+      <line x1="17" y1="29" x2="25" y2="29" stroke="#111111" stroke-width="4" stroke-linecap="round" />
+      <text x="35" y="27" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-weight="900" font-size="22" fill="#111111" letter-spacing="-0.5">
+        CJ<tspan fill="#a3e635">.</tspan>
+      </text>
+    </svg>
+
+    <nav>
+      <ul class="header-menu">
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="introducao js-scroll">
+    <img src="./img/perfil.jpg" alt="Cristiano Junior" width="360" height="520">
+    <div>
+      <h1>Suporte Técnico N1<br>Help Desk &<br>Atendimento Remoto</h1>
+      <p>Localizado em Brasília 🏢</p>
+    </div>
+  </main>
+
+  <section class="experiencia" id="experiencia" aria-label="Experiência">
+    <h2 class="subtitulo">Experiência</h2>
+    <div>
+      <p class="experiencia-texto js-scroll">Foco na resolução eficiente de chamados, <strong>orientação técnica à distância</strong> e <strong>atendimento humanizado</strong>. Facilidade para aprender novos sistemas e procedimentos operacionais com rapidez.</p>
+
+      <div class="empresa js-scroll">
+        <span class="empresa-ano">2 anos</span>
+        <h3 class="empresa-titulo">Escritório de Advocacia</h3>
+        <span class="empresa-titulo">Assistente de TI</span>
+        <p class="empresa-texto">Suporte técnico presencial e remoto a usuários finais. Atuação na identificação de problemas em computadores, acesso a sistemas corporativos, ferramentas de conferência e atendimento sob pressão.</p>
+        <ul class="empresa-habilidades">
+          <li>Suporte Nível 1</li>
+          <li>Acesso Remoto</li>
+          <li>Troubleshooting</li>
+          <li>Atendimento ao Usuário</li>
+        </ul>
+      </div>
+
+      <div class="empresa js-scroll">
+        <span class="empresa-ano">Voluntário</span>
+        <h3 class="empresa-titulo">Ensino de Informática</h3>
+        <span class="empresa-titulo">Instrutor</span>
+        <p class="empresa-texto">Ensino prático de tecnologia. Essa experiência desenvolveu minha paciência e didática para orientar procedimentos técnicos passo a passo por telefone ou mensagem de forma simples e objetiva.</p>
+        <ul class="empresa-habilidades">
+          <li>Didática & Comunicação</li>
+          <li>Atendimento Humanizado</li>
+          <li>Orientação por Telefone</li>
+          <li>Empatia</li>
+        </ul>
+      </div>
+
+      <div class="empresa js-scroll">
+        <span class="empresa-ano">Atual</span>
+        <h3 class="empresa-titulo">Projetos & Prática</h3>
+        <span class="empresa-titulo">Estudos em Tecnologia</span>
+        <p class="empresa-texto">Estudo contínuo em Análise e Desenvolvimento de Sistemas. Aplicação de lógica para entender a arquitetura de softwares, rápida adaptação a novas plataformas e documentação de processos.</p>
+        <ul class="empresa-habilidades">
+          <li>Lógica de Programação</li>
+          <li>Documentação</li>
+          <li>Facilidade de Aprendizado</li>
+          <li>Sistemas Web</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="formacao" id="formacao" aria-label="Formação">
+    <div class="formacao-container js-scroll">
+      <h2 class="subtitulo">Formação</h2>
+
+      <div>
+        <p class="formacao-texto">
+          Minha formação em <strong>Análise e Desenvolvimento de Sistemas</strong> me dá a visão lógica para entender o funcionamento de softwares, sistemas operacionais e integrações.
+        </p>
+
+        <ul class="faculdade-lista">
+          <li class="faculdade">
+            <span class="faculdade-tipo">2º Semestre (Cursando)</span>
+            <h3 class="faculdade-curso">Análise e Desenvolvimento de Sistemas</h3>
+            <span class="faculdade-instituicao">Senac</span>
+          </li>
+        </ul>
+
+        <div class="formacao-extra">
+          <div class="cursos">
+            <h3>Diferenciais</h3>
+            <ul>
+              <li>Habilitação <span>Categoria B (CNH)</span></li>
+              <li>Manutenção <span>Hardware & Microcomputadores</span></li>
+            </ul>
+          </div>
+          <div class="idiomas">
+            <h3>Idiomas</h3>
+            <ul>
+              <li>Inglês <span>/ Técnico</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="contato">
+    <div class="footer-container js-scroll">
+      <p class="footer-texto">Disponível para oportunidades em Suporte Técnico, Help Desk e Service Desk. Vamos conversar? 👋</p>
+      <ul class="footer-contato">
+        <li>juniorcristiano819@gmail.com</li>
+        <li>+55 61 99148-8909</li>
+        <li><a href="https://www.linkedin.com/in/cristiano-junior-899a5a429/" target="_blank">@cristianojunior</a></li>
+      </ul>
+      <p class="footer-copy">Cristiano Junior. Alguns direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Lógica das Animações em JavaScript -->
+  <script>
+    // 1. Scroll Suave ao Clicar no Menu
+    const menuLinks = document.querySelectorAll('.header-menu a[href^="#"]');
+
+    menuLinks.forEach(link => {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        const targetSection = document.querySelector(targetId);
+
+        if (targetSection) {
+          targetSection.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+
+    // 2. Animação de Aparição ao Rolar a Página (Intersection Observer)
+    const scrollElements = document.querySelectorAll('.js-scroll');
+
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.15 // Ativa quando 15% do elemento entra na tela
+    };
+
+    const scrollObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('ativo');
+          observer.unobserve(entry.target); // Anima apenas uma vez
+        }
+      });
+    }, observerOptions);
+
+    scrollElements.forEach(el => {
+      scrollObserver.observe(el);
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 38" width="110" height="38">
+  <!-- Ícone de Terminal/Prompt em Verde Neon -->
+  <path d="M 4 9 L 13 19 L 4 29" fill="none" stroke="#a3e635" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="17" y1="29" x2="25" y2="29" stroke="#111111" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Texto CJ -->
+  <text x="35" y="27" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-weight="900" font-size="22" fill="#111111" letter-spacing="-0.5">
+    CJ<tspan fill="#a3e635">.</tspan>
+  </text>
+</svg>
